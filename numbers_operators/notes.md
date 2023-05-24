@@ -1,20 +1,20 @@
-Nessa aula veremos sobre:
+Nessa aula veremos sobre:<br>
 
-Boas práticas na escrita de variáveis
+Boas práticas na escrita de variáveis<br>
 
-Sem espaços ou acentuações especiais no nome
-Não pode iniciar com número
-Utilizar camelCase
-ponto e vírgula servem para finalizar uma expressão de código (facultativo)
+Sem espaços ou acentuações especiais no nome<br>
+Não pode iniciar com número<br>
+Utilizar camelCase<br>
+ponto e vírgula servem para finalizar uma expressão de código (facultativo)<br>
 
-Aprendemos:
+Aprendemos:<br>
 
-[] Tipo de dado: Number
-[] typeof
-[] Operador matemático
-[] Manipulação de dados
-[] type conversion (type casting)
-[] Number() (função construtora para converter um dado em número)
-[] String() (função construtora para converter um dado em uma string)
-[] Ordem de precedência dos operadores
+[] Tipo de dado: Number<br>
+[] typeof<br>
+[] Operador matemático<br>
+[] Manipulação de dados<br>
+[] type conversion (type casting)<br>
+[] Number() (função construtora para converter um dado em número)<br>
+[] String() (função construtora para converter um dado em uma string)<br>
+[] Ordem de precedência dos operadores<br>
 [] group operator
