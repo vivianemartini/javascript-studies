@@ -2,6 +2,8 @@
 
 Rocketseat Classes
 
+Stage 3 and 4
+
 1 - Intro to logic <br>
 2 - Numbers and operators <br>
 3 - Student grades <br>
@@ -13,6 +15,10 @@ Rocketseat Classes
     - patients <br>
     - imc <br>
 6 - Review
+
+Stage 5
+
+Jogo da Adivinhação
 
 
 
