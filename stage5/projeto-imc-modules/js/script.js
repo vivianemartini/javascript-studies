@@ -6,6 +6,11 @@ const form = document.querySelector("form");
 const inputWeight = document.querySelector("#weight");
 const inputHeight = document.querySelector("#height");
 
+//Fechar a janela do erro ao digitar o campo
+//evento no subit
+inputWeight.oninput = () => AlertError.close()
+inputHeight.oninput = () => AlertError.close()
+
 form.onsubmit = (event) => {
   event.preventDefault();
 
