@@ -4,6 +4,43 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #121214;
+    --base-color: 194;
+    --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);
+    --primary-color: hsl(var(--base-color), 100%, 63%);
+    --tt-color: #FFFFFF;
+
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--tt-color);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+#timer {
+    font-size: 8.8rem;
+
+    display: flex;
+}
+
+#controls {
+    background-color: var(--bg-primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9999px;
 }
