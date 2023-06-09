@@ -1,17 +1,17 @@
-// DOM
-// Document Object Model
+const buttoPlay = document.querySelector('.play')
+const buttoPause = document.querySelector('.pause')
+const buttonStop = document.querySelector('.stop')
+const buttonStep = document.querySelector('.step')
 
-let play = document.querySelector('.play')
-let pause = document.querySelector('.pause')
 // Event-driven
 // programação imperativa
 // callback
-play.addEventListener('click', function() {
+buttonPlay.addEventListener('click', function() {
   play.classList.add('hide')
   pause.classList.remove('hide')
 })
 
-pause.addEventListener('click', function() {
+buttonPause.addEventListener('click', function() {
   pause.classList.add('hide')
   play.classList.remove('hide')
 })
