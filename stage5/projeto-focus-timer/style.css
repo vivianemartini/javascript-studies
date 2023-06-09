@@ -18,6 +18,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
     color: var(--tt-color);
+
+    display: grid;
+    min-height: 100vh;
+}
+
+main {
+    align-self: end;
+    justify-self: center;
 }
 
 button {
@@ -38,6 +46,7 @@ button svg {
     font-size: clamp(4rem, 4rem + 10vw, 8.8rem) ;
 
     display: flex;
+    margin-bottom: 1.6rem;
 }
 
 #controls {
@@ -45,9 +54,17 @@ button svg {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 3.2rem;
 
     border-radius: 9999px;
 
     width: clamp(10rem, 10rem + 30vw, 22.8rem);
     height: clamp(8rem, 5rem + 10vw, 10.8rem);
+}
+
+footer {
+    justify-self: end;
+    align-self: end;
+
+    padding: 0 4rem 3.2rem 0;
 }
