@@ -45,7 +45,6 @@ function countdown() {
 }
 
 // Event-driven
-// programação imperativa
 // callback
 buttonPlay.addEventListener('click', function() {
   buttonPlay.classList.add('hide')
