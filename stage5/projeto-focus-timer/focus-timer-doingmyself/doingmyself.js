@@ -27,8 +27,9 @@ function countdown(){
         let seconds = Number(secondsDisplay.textContent)
         let minutes = Number(minutesDisplay.textContent)
 
-        //para que o primeiro segundo receba do numero ex. 25:08
-        secondsDisplay.textContent = String(seconds - 1).padStart(2,'0')
+        
+       //quando chegar no zero
+        secondsDisplay.textContent = '00'
         
 
         if (minutes <= 0){
@@ -119,3 +120,36 @@ buttonSet.addEventListener('click', function(){
 
 //quando der o play os minutos tem que mudar - la no buttonPlay
 
+//refatoração do código ver no script do outro arquivo
+
+/* colocando em função os:
+
+
+buttonPlay.classList.remove('hide')
+buttonPause.classList.add('hide')
+buttonStop.classList.add('hide')
+
+ficou assim:
+
+function resetControls(){
+  buttonPlay.classList.remove('hide')
+  buttonPause.classList.add('hide')
+  buttonSet.classList.remove('hide')
+  buttonStop.classList.add('hide')
+}
+
+*/
+
+//colocar nomes significativos para funções e variaveis
+
+/* 
+
+   minutesDisplay.textContent = String(minutes).padStart(2,'0')
+
+   function updateTimerDisplay(minutes,seconds){
+  minutesDisplay.textContent = String(minutes).padStart(2, '0')
+  secondsDisplay.textContent = String(seconds).padStart(2, '0')
+}
+
+
+*/
