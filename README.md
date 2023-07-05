@@ -1,7 +1,17 @@
 ## javascript-studies
 
-# Rocketseat Classes
+# Origamid
 
+- JS for begginers
+    - Variables
+    - Boolean
+    - Functions
+    - Numbers and Operators
+    - Objects
+    - Type of data
+    - Tudo é objeto
+
+# Rocketseat Classes
 # Stage 3 and 4
 
 1 - Intro to logic <br>
