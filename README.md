@@ -1,5 +1,10 @@
 ## javascript-studies
 
+This repo contains my studies with javascript. Classes taken in courses, videos or extras.
+
+# Links
+
+
 # Origamid
 
 - JS for begginers
@@ -32,8 +37,5 @@ Jogo da Adivinhação  <br>
 Projeto IMC  <br>
 Projecto IMC Modules <br>
 Projeto Timer
-
-
-
 
 
