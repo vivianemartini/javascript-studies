@@ -29,8 +29,8 @@ var quadrado = {
 quadrado.lados; // 4
 quadrado.area(5); // 25
 quadrado.perimetro(5); // 20
-COPIAR
-MÉTODOS
+
+# MÉTODOS
 Abreviação de area: function() {} para area() {}, no ES6+
 
 var quadrado = {
