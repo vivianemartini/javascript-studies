@@ -73,8 +73,8 @@ if(' ')
 if('andre')
 if(-5)
 if({})
-COPIAR
-OPERADOR LÓGICO DE NEGAÇÃO !
+
+# OPERADOR LÓGICO DE NEGAÇÃO !
 O operador !, nega uma operação booleana. Ou seja, !true é igual a false
 
 // Truthy
@@ -84,7 +84,7 @@ if(!'') // true
 if(!undefined) // true
 if(!!' ') // true
 if(!!'') // false
-COPIAR
+
 Dica, você pode utilizar o !! para verificar se uma expressão é Truthy ou Falsy
 
 # OPERADORES DE COMPARAÇÃO
