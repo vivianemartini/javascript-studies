@@ -16,7 +16,7 @@ This repo contains my studies with javascript. Classes taken in courses, videos 
     - Numbers and Operators<br>
     - Objects<br>
 
-
+2 - DOM
 
 # Rocketseat Classes
 # Stage 3 and 4
