@@ -6,6 +6,7 @@
   }
   console.log(var, marca, portas); */
   //esta imprimindo var e deveria ser cor
+  //marca e portas estao dentro do bloco, ou tira ou inclui o ocnsole dentro
   
   // Como corrigir o erro abaixo?
 /*   function somarDois(x) {
@@ -20,8 +21,8 @@
   dividirDois(6); */
   
   // O que fazer para total retornar 500?
-var numero = 50;
   
+  var numero = 50;
   for(var numero = 0; numero < 10; numero++) {
     console.log(numero);
 

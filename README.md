@@ -8,14 +8,15 @@ This repo contains my studies with javascript. Classes taken in courses, videos 
 
 # Origamid
 
-1 - JS for beginners
-    - Type of data
-    - Variables
-    - Boolean
-    - Functions
-    - Numbers and Operators
-    - Objects
+1 - JS for beginners<br>
+    - Type of data<br>
+    - Variables<br>
+    - Boolean<br>
+    - Functions<br>
+    - Numbers and Operators<br>
+    - Objects<br>
 
+2 - DOM
 
 # Rocketseat Classes
 # Stage 3 and 4
