@@ -47,7 +47,12 @@ console.log(peso)
 
 var idade = '28'
 var somaIdade = 5
-
+//print 33
 console.log(+idade + somaIdade)
 
 //incluindo o + na idade ele transforma a string em numero
+//pode ser feito assim var idade= +'28
+
+console.log(+idade + -somaIdade)
+//print 23
+//o - no somaIdade faz com que diminua - pois transforma o numero em negativo
