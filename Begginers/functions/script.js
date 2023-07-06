@@ -71,3 +71,11 @@ function terceiraIdade(idade) {
 console.log(terceiraIdade(60))
 
 
+var totalPaises = 193;
+
+function faltaVisitar(paisesVisitados) {
+  return `Faltam visita ${totalPaises - paisesVisitados} países`
+}
+
+faltaVisitar()
+//incluir o numero ao chamar faltaVisitar

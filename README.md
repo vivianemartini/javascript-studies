@@ -1,15 +1,21 @@
 ## javascript-studies
 
+This repo contains my studies with javascript. Classes taken in courses, videos or extras.
+
+# Links
+
+[ClipBoardJS](https://clipboardjs.com/)
+
 # Origamid
 
-- JS for begginers
+1 - JS for beginners
+    - Type of data
     - Variables
     - Boolean
     - Functions
     - Numbers and Operators
     - Objects
-    - Type of data
-    - Tudo é objeto
+
 
 # Rocketseat Classes
 # Stage 3 and 4
@@ -17,8 +23,8 @@
 1 - Intro to logic <br>
 2 - Numbers and operators <br>
 3 - Student grades <br>
-4 - Data strcutures - shopping list <br>
-5 - Data sctructures <br>
+4 - Data structures - shopping list <br>
+5 - Data structures <br>
     - guessing game <br>
     - market-list <br>
     - menu <br>
@@ -28,12 +34,9 @@
 
 # Stage 5
 
-Jogo da Adivinhação  <br>
-Projeto IMC  <br>
-Projecto IMC Modules <br>
-Projeto Timer
-
-
-
+1 - Jogo da Adivinhação  <br>
+2 - Projeto IMC  <br>
+3 - Projecto IMC Modules <br>
+4 - Projeto Timer
 
 
