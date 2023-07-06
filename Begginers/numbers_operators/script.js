@@ -43,3 +43,11 @@ var unidade = 'kg';
 var peso = numero + unidade; 
 
 console.log(peso)
+
+
+var idade = '28'
+var somaIdade = 5
+
+console.log(+idade + somaIdade)
+
+//incluindo o + na idade ele transforma a string em numero
