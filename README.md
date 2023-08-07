@@ -17,6 +17,10 @@ This repo contains my studies with javascript. Classes taken in courses, videos 
     - Objects<br>
 
 2 - DOM
+    - Dom
+    - Elements
+    - forEach - Arrow Function
+    - Classes and attributes
 
 # Rocketseat Classes
 # Stage 3 and 4

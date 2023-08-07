@@ -20,7 +20,7 @@ imgs.forEach(item, index => { //não tem os ()
 });
 
 let i = 0;
-imgs.forEach( => { //não esta com os () ou nenhum item
+imgs.forEach(() => { //não esta com os () ou nenhum item
   console.log(i++);
 });
 
