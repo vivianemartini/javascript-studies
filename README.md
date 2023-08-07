@@ -40,4 +40,6 @@ This repo contains my studies with javascript. Classes taken in courses, videos 
 3 - Projecto IMC Modules <br>
 4 - Projeto Timer
 
+# Stage 6
 
+1-SPA

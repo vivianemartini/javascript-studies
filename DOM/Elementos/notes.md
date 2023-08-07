@@ -27,7 +27,7 @@ querySelector retorna o primeiro elemento que combinar com o seu seletor CSS.
 const animais = document.querySelector('.animais');
 const contato = document.querySelector('#contato');
 const ultimoItem = document.querySelector('.animais-lista li:last-child');
-const linkCSS = document.querySelector('[href^="https://"]');
+const linkCSS = document.querySelector('[href^="https://"]'); -> o ^ é começa com
 const primeiroUl = document.querySelector('ul');
 
 // Busca dentro do Ul apenas
