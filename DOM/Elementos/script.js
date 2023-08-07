@@ -28,3 +28,7 @@ const h2Animais = animais.querySelector('h2')
 
 const p = document.querySelector('p:last-child')
 
+/* or
+const paragraphs = document.querySelectorAll('p')
+console.log(paragraphs[--paragraphs.length])
+ */
