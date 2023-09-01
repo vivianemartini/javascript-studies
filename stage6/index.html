@@ -9,7 +9,7 @@
     <nav>
         <a href="/" onclick="route()">Home</a>
         <a href="/about" onclick="route()">Sobre</a>
-        <a href="/contact" onclick="route()">Contato</a>
+        <a href="/contact" onclick="route()">Contact</a>
         <a href="/404" onclick="route()">404</a>
     </nav>
 
@@ -18,27 +18,36 @@
     </div>
 
     <script>
-        const routes = {
-            '/': '/pages/home.html',
-            '/about': '/pages/about.html',
-            '/contact': '/pages/contact.html',
-            404: '/pages/404.html'
-        }
+    const routes = {
+      "/": "./stage6/pages/home.html",
+      "/about": "./stage6/pages/about.html",
+      "/contact": "./stage6/pages/contact.html",
+      404: "./pages/404.html",
+    }
 
-        function route(event){
-            event = event || window.event
-            event.preventDefault()
+    function route(event) {
+      event = event || window.event
+      event.preventDefault()
 
-            window.history.pushState({}, "", event.target.href)
+      window.history.pushState({}, "", event.target.href)
 
-            handle()
-        }
+      handle()
+    }
 
-        function handle(){
-            const pathname = window.location.pathname
+    function handle() {
+      const { pathname }  = window.location
+      const route = routes[pathname] || routes[404]
+ 
+      fetch(route)
+      .then(data => data.text())
+      .then(html => {
+        document.querySelector('#app').innerHTML = html
+      })
+    }
 
-            console.log(pathname)
-        }
+    handle()
+
+    window.onpopstate = () => handle()
     </script>
 </body>
 </html>
