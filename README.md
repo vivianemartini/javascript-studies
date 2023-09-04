@@ -47,3 +47,11 @@ This repo contains my studies with javascript. Classes taken in courses, videos 
 # Stage 6
 
 1-SPA
+
+# Stage 7
+
+- Git & GitHub
+
+# Stage 8
+
+- Backend
